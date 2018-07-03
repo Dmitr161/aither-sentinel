@@ -10,7 +10,6 @@ maxconnections=256
 masternode=1
 masternodeprivkey=your_masternode_genkey
 logtimestamps=1
-debug=mnpayments
 txindex=1
 addressindex=1
 timestampindex=1
