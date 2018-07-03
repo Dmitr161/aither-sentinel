@@ -1,16 +1,19 @@
-# basic settings
-txindex=1
-testnet=1 # TESTNET
+rpcuser=your_secure_user
+rpcpassword=your_secure_password
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+externalip=your_vps_public_ip
+daemon=1
+listen=1
+server=1
+maxconnections=256
+masternode=1
+masternodeprivkey=your_masternode_genkey
 logtimestamps=1
-
-# optional indices
+debug=mnpayments
 txindex=1
 addressindex=1
 timestampindex=1
 spentindex=1
-
-# JSONRPC
-server=1
-rpcuser=dashrpc
-rpcpassword=abcdefghijklmnopqrstuvwxyz0123456789ABCDEF10
-rpcallowip=127.0.0.1
+rpcport=40999
+# Default nodes config
